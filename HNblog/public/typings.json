@@ -1,0 +1,21 @@
+{
+    "ambientDependencies": {
+        "es6-shim": "registry:dt/es6-shim#0.31.2+20160602141504",
+        "material-ui": "registry:dt/material-ui#0.15.0+20160602140214",
+        "query-string": "registry:dt/query-string#3.0.0+20160331065456",
+        "react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#f407264835650f5f38d4bb2c515a79e7a835916b",
+        "react-addons-css-transition-group": "registry:dt/react-addons-css-transition-group#0.14.0+20160316155526",
+        "react-addons-transition-group": "registry:dt/react-addons-transition-group#0.14.0+20160417134118",
+        "react-dom": "github:DefinitelyTyped/DefinitelyTyped/react/react-dom.d.ts#ca5bfe76d2d9bf6852cbc712d9f3e0047c93486e",
+        "react-redux": "registry:dt/react-redux#4.4.0+20160501125835",
+        "react-tap-event-plugin": "registry:dt/react-tap-event-plugin#0.0.0+20160226083632",
+        "require": "registry:dt/require#2.1.20+20160316155526",
+        "socket.io-client": "registry:dt/socket.io-client#1.4.4+20160317120654"
+    }, 
+    "dependencies": {
+        "es6-promise": "registry:npm/es6-promise#3.0.0+20160211003958",
+        "radium": "registry:npm/radium#0.16.6+20160310030142",
+        "redux-thunk": "registry:npm/redux-thunk#2.0.0+20160525185520",
+        "webpack": "registry:npm/webpack#1.12.9+20160418172948"
+    }
+}

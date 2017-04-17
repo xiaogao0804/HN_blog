@@ -1,0 +1,56 @@
+.content{
+	width: 780px;
+	margin: 20px auto;	
+	
+}
+.content_text{
+	width: 95%;
+	min-height: 500px;
+	padding: 2.5%;
+}
+.console{
+	position: fixed;
+	left: 13%;
+	top: 60%;
+}
+.btm-btn{
+	width: 195px;
+	margin: 10px auto;
+}
+.btm-btn a{
+	width:80px
+}
+.btm-btn a:nth-child(2){
+	margin-left: 30px;
+}
+.add_con select,.add_con input{
+	width: 150px;
+	display: inline-block;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-right: 40px;
+}
+.add_con div:nth-child(1){
+	height: 30px;
+	margin-bottom: 30px;
+}
+.add_con{
+	margin-bottom: 30px;
+}
+.add_con .content_text img{
+	max-width: 95%;
+}
+.console a{
+	display: block;
+	margin : 15px 0; 
+}
+#content_text{
+	border:2px solid #B9DEF0;
+	-webkit-user-modify: read-write;
+	user-modify: read-write;
+}
+#content_text img{
+	max-width: 95%;
+}

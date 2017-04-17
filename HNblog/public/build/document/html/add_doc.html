@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--include "../../public/html/head.html"-->
+		<script src="/src/Public/js/ajaxfileupload.js"></script>
+	</head>
+	<body>
+		<div id="app" v-cloak>
+			<he :login="login"></he>
+			<div class="content">
+				<div class="add_con">
+					<div>
+						<select @change="get_model_fun" class="form-control fl input-sm" v-model="FEorServer_find">
+							<option value="FE">F.E.</option>
+							<option value="Server">Server</option>
+						</select>
+						<select class="form-control fl input-sm" v-model="doc_classify">
+							<option v-for="i in classify" :value="i.title">{{i.title}}</option>
+						</select>
+						<select class="form-control fl input-sm" v-model="doc_limits">
+							<option value="private">Private</option>
+							<option value="public">Public</option>
+						</select>
+					</div>
+					
+					<div>
+						<input type="text" v-model="author_title" disabled="disabled">
+						<input type="text" v-model="add_title" placeholder="请输入标题">
+					</div>
+					
+				</div>
+				<div class="content_text" id="content_text" contenteditable="true">
+					{{docHtml}}
+				</div>
+				<div class="btm-btn">
+					<a class="btn btn-default" @click="window.history.go(-1)">Cancel</a>
+					<a class="btn btn-success" @click="save">Save</a>
+				</div>
+			</div>
+			<div class="console">
+				<form id="uploadform" enctype="multipart/form-data" style="display:none">
+		            <input type="file" name="file1" accept="image/gif,,image/jpg,image/png" style="display:none">
+		        </form>
+				<a class="btn btn-default" id="add_img">Add IMG</a>
+				<!--<a class="btn btn-default" id="blod">Bold</a>-->
+				<!--<a class="btn btn-default">Add code</a>-->
+			</div>
+		</div>
+		
+		<!--include "../../public/html/foot.html"-->
+	</body>
+	<script src="/src/document/js/add_doc.min.js"></script>
+</html>

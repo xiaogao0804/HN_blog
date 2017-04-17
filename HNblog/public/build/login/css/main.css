@@ -1,0 +1,212 @@
+.close{
+	padding: 0;
+}
+
+.table{
+	width: 980px;
+	border: 1px solid #e4e4e4;
+	margin: 0 auto;
+}
+.table tr th {
+	height: 40px;
+	vertical-align:middle!important;
+	text-align: center;
+}
+.addBtn{
+	width: 980px;
+	margin: 20px auto;
+	text-align: right;
+}
+.table tr td{
+	text-align: center;
+	vertical-align:middle!important;
+	height: 40px;
+	border-top: 1px solid #e4e4e4;
+}
+.pop-text{
+	width: 800px;
+	height: 150px;
+	resize:none;
+	padding: 10px;
+}
+.imgBox{
+	width: 800px;
+	height: 180px;
+	margin:20px auto;
+	overflow: auto;
+}
+.imgBox img{
+	width: 150px;
+	height: 150px;
+	margin: 10px 30px;
+	float: left;
+}
+.btn-upload{
+	width:800px ;
+	margin: 0 auto;
+}
+.imgBox img:nth-child(4n+1){
+	margin-left: 0;
+}
+.imgBox img:nth-child(4n){
+	margin-right: 0;
+}
+#pop-operate{
+	background: #fff;				
+	width: 1000px;
+	height: 600px;
+	position: fixed;
+	overflow: auto;
+	top: 50%;
+	left: 50%;
+	margin: -300px 0 0 -500px;
+	z-index: 100;
+	padding-bottom: 20px;
+}
+.operateSelect{
+	width: 200px;
+	height: 30px;
+	margin-left: 80px;
+	margin-bottom: 20px;
+}
+.btm-btn{
+	width: 120px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+header{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	background: #000000;
+	color: #fff;
+	margin-bottom: 30px;
+	
+}
+.head-title{
+	width: 50%;
+	text-align: right;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	float: left;
+	padding-right: 150px;
+
+}
+.head-login{
+	width: 50%;
+	text-align: left;
+	height: 40px;
+	
+	line-height: 40px;
+	float: left;
+	padding-left: 350px;	
+	cursor: pointer;
+}
+.head-login a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+}
+.login-content{
+	width: 400px;
+	margin: 150px auto 0;
+}
+.pop{
+	background: #fff;				
+	width: 1000px;
+	height: 650px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -325px 0 0 -500px;
+	z-index: 100;
+}
+.pop-content,.pop-img{
+	width: 950px;
+	margin: 20px auto;
+}
+.pop-img{
+	height: 300px;
+	overflow: auto;
+}
+.infoBtn{
+	width: 1000px;
+	text-align: center;
+}
+.loginToReg{
+	text-align: right;	
+}
+.loginToReg a{
+	cursor: pointer;
+	width: 120px;
+}
+.add_title{
+	width: 200px;
+	height: 28px;
+	margin: 10px 0 10px 10px;
+	
+}
+option{
+	height: 30px;
+}
+.addSelect{
+	width: 200px;
+	height: 30px;
+	margin: 10px 0 10px 10px;
+}
+.add_table{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.add_tbody tr{
+	width: 50%;
+}
+.add_tbody  td:nth-child(2n-1){
+	width: 100px;
+	text-align: center;
+}
+.add_tbody  td:nth-child(2n){
+	text-align: left;
+}
+.add_text{
+	
+	width: 800px;
+	margin: 10px auto;
+	border: 1px solid #e4e4e4;
+	padding: 10px;
+}
+.add_text p{
+	line-height: 20px;
+	height: 20px;
+}
+.add_text textarea{
+	width: 690px;
+	height: 20px;
+	border: none;
+	resize: none;
+	outline: none;
+	float: right;
+}
+.mt20{
+	margin-top: 20px;
+}
+.add_module{
+	background: #fff;				
+	width:500px;
+	height: 300px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -250px;
+	z-index: 100;
+}
+.add_module_text{
+	width: 200px;
+	height: 28px;
+	display: block;
+	margin: 10px auto;
+}
+

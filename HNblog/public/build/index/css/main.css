@@ -1,0 +1,41 @@
+.doc_con{
+	width:860px;
+	margin: 0 auto;
+	font-size:14px;
+	border-bottom:1px dashed #2E6DA4;
+	height : 60px;
+	line-height: 60px;
+	padding: 0 30px;
+}
+.doc_con .editDoc{
+	margin-right: 20px;
+}
+.addDoc{
+	width: 860px;
+	margin: 20px auto;
+	height: 30px;
+}
+.addDoc a{
+	float: right;
+}
+.pop_remove_save{
+	width: 300px;
+	height: 200px;
+	margin:-100px 0 0 -150px;
+	left: 50%;
+	top: 50%;
+	z-index:999;
+}
+.pop_remove_save .btm-btn{
+	width: 160px;
+	margin: 0 auto;
+}
+.pop_content{
+	width: 200px;
+	margin: 10px auto;
+	text-align: center;
+    height: 80px;
+    padding-top: 30px;
+}
+
+
